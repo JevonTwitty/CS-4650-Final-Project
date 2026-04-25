@@ -1,0 +1,8 @@
+# Data
+/data
+
+# Virtual Envs
+/CS4650
+
+# OS/Editor
+.DS_Store
