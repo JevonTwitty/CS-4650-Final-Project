@@ -1,0 +1,5 @@
+task,dataset_name,accuracy,macro_f1,weighted_f1,support
+binary_random_split,ai_text_detection_dataset,0.9890710382513661,0.49725274725274726,0.9945054945054945,2013
+binary_random_split,ai_vs_human_text,0.9996883697439259,0.9996713994185865,0.999688362521828,93059
+binary_random_split,daigt_v2_train,1.0,1.0,1.0,594
+binary_random_split,multi_model_detection,0.9680851063829787,0.9514713474445018,0.967178901349971,94

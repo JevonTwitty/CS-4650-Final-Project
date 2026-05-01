@@ -1,0 +1,3 @@
+train_dataset,test_dataset,accuracy,macro_f1,weighted_f1,num_train,num_test,train_ai,train_human,test_ai,test_human
+ai_vs_human_text,multi_model_detection,0.662,0.46988375083908934,0.5592401457976525,465199,500,179783,285416,320,180
+multi_model_detection,ai_vs_human_text,0.5666177270372464,0.5653727299015169,0.5706547920124705,500,465199,320,180,179783,285416

@@ -1,0 +1,10 @@
+,pred_Claude-4_Opus,pred_GPT-5_Preview,pred_Gemini-2_Pro,pred_NousResearch/Llama-2-7b-chat-hf,pred_cohere-command,pred_darragh_claude_v6,pred_llama2_chat,pred_mistralai/Mistral-7B-Instruct-v0.1,pred_palm-text-bison1
+true_Claude-4_Opus,19,0,0,0,0,0,0,0,0
+true_GPT-5_Preview,0,22,0,0,0,0,0,0,0
+true_Gemini-2_Pro,0,0,24,0,0,0,0,0,0
+true_NousResearch/Llama-2-7b-chat-hf,0,0,0,59,0,0,0,0,0
+true_cohere-command,0,0,0,0,31,0,0,0,1
+true_darragh_claude_v6,0,0,0,0,0,81,0,0,0
+true_llama2_chat,0,0,0,0,0,0,351,0,0
+true_mistralai/Mistral-7B-Instruct-v0.1,0,0,0,0,0,0,0,31,0
+true_palm-text-bison1,0,0,0,0,0,0,0,0,39

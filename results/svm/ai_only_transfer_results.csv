@@ -1,0 +1,7 @@
+train_dataset,test_dataset,task,ai_recall,num_test_ai,num_train
+ai_vs_human_text,daigt_v2_train,ai_only_transfer_recall,1.0,2970,465199
+ai_vs_human_text,ai_text_detection_dataset,ai_only_transfer_recall,0.9231908381873828,10129,465199
+ai_vs_human_text,multi_model_detection,ai_only_transfer_recall,0.9875,320,465199
+multi_model_detection,ai_vs_human_text,ai_only_transfer_recall,0.6638336216438707,179783,500
+multi_model_detection,daigt_v2_train,ai_only_transfer_recall,0.428956228956229,2970,500
+multi_model_detection,ai_text_detection_dataset,ai_only_transfer_recall,0.8528976206930595,10129,500

@@ -1,0 +1,2 @@
+task,model,min_examples_per_class,accuracy,macro_f1,weighted_f1,num_train,num_test,num_classes
+ai_model_attribution,tfidf_linearsvc,75,0.9984802431610942,0.9968298618087648,0.998477800313051,2632,658,9

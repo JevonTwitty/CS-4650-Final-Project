@@ -1,0 +1,4 @@
+task,model,accuracy,macro_f1,weighted_f1,num_train,num_test,min_examples_per_class,num_classes
+binary_human_vs_ai,tfidf_linearsvc,0.9994360902255639,0.999414207861153,0.9994360571206254,383039,95760,,
+binary_length_only_baseline,logistic_regression_num_chars_num_words,0.7775480367585631,0.7721689805551631,0.778924788536598,383039,95760,,
+ai_model_attribution,tfidf_linearsvc,0.9984802431610942,0.9968298618087648,0.998477800313051,2632,658,75.0,9.0
