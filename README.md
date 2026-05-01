@@ -36,12 +36,12 @@ We train and evaluate our models on a diverse set of datasets.
 ### **Datasets**
 Download the following datasets and place the `.csv` files in the `data/` directory.
 
-| Dataset Source | Description | Link |
-| :--- | :--- | :--- |
-| **AI vs. Human Text** | Large-scale balanced corpus | [Kaggle](https://www.kaggle.com/datasets/shanegerami/ai-vs-human-text) |
-| **Multi-Mode Detection** | Multi-generator (GPT/Llama) | [Kaggle](https://www.kaggle.com/datasets/bertnardomariouskono/ai-generated-text-detection-multi-model) |
-| **AI Text Detection** | Mixed academic & creative writing | [Kaggle](https://www.kaggle.com/datasets/deepaksingh2510/ai-text-detection-dataset) |
-| **DAIGT V2** | High-quality prompt-engineered data | [Kaggle](https://www.kaggle.com/datasets/thedrcat/daigt-v2-train-dataset) |
+| Dataset Source | Description | Link | Required File Name |
+| :--- | :--- | :--- | :--- |
+| **AI vs. Human Text** | Large-scale balanced corpus | [Kaggle](https://www.kaggle.com/datasets/shanegerami/ai-vs-human-text) | `AI_Human.csv` |
+| **Multi-Model Detection** | Multi-generator (GPT/Llama) | [HuggingFace](https://huggingface.co/datasets/gsingh1-py/train) | `multi_model_detection.csv` |
+| **AI Text Detection** | Mixed academic & creative writing | [Kaggle](https://www.kaggle.com/datasets/deepaksingh2510/ai-text-detection-dataset) | `AI_Detection.csv` |
+| **DAIGT V2** | High-quality prompt-engineered data | [Kaggle](https://www.kaggle.com/datasets/thedrcat/daigt-v2-train-dataset) | `train_v2_drcat_02.csv` |
 
 ### **Pre-trained Embeddings**
 We support both GloVe and FastText. Place these in `data/embeddings/`.
