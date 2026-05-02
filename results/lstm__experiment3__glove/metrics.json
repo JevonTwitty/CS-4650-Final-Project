@@ -1,0 +1,8 @@
+{
+  "dataset_name": "experiment3",
+  "embedding_source": "glove",
+  "test_loss": 0.7827634023978948,
+  "test_accuracy": 0.8587979724837075,
+  "test_roc_auc": 0.8694238797646334,
+  "num_test_samples": 51097
+}

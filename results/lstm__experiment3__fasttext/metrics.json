@@ -1,0 +1,8 @@
+{
+  "dataset_name": "experiment3",
+  "embedding_source": "fasttext",
+  "test_loss": 1.0094577896853265,
+  "test_accuracy": 0.8424369336751668,
+  "test_roc_auc": 0.8112350471449423,
+  "num_test_samples": 51097
+}

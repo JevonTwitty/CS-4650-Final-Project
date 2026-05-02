@@ -1,0 +1,10 @@
+{
+  "dataset_name": "experiment3",
+  "model_name": "bert-base-uncased",
+  "test_loss": 1.2552499313103649,
+  "test_accuracy": 0.8697183787697907,
+  "test_roc_auc": 0.7027949127496911,
+  "batch_size": 256,
+  "num_epochs": 3,
+  "learning_rate": 0.0003
+}
