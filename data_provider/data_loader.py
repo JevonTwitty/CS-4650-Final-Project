@@ -43,10 +43,20 @@ def load_multi_model_detection_dataset_binary(foldername):
 
     rows = []
     for _, row in df.iterrows():
-        rows.append({"text": row["Human_story"], "label": 0})
+        rows.append({
+            "text": row["Human_story"],
+            "label": 0,
+            "source": "Human_story",
+            "prompt": row["prompt"],
+        })
 
         for source_column in source_columns:
-            rows.append({"text": row[source_column], "label": 1})
+            rows.append({
+                "text": row[source_column],
+                "label": 1,
+                "source": source_column,
+                "prompt": row["prompt"],
+            })
 
     df = pd.DataFrame(rows)
 
@@ -153,7 +163,7 @@ def load_dataset(foldername="data", file_name="AI_Detection.csv", split=None):
     Supported file names:
     - AI_Human.csv: returns a df with columns [text, label]
     - AI_Detection.csv: returns a df with columns [text, label]
-    - multi_model_detection.csv: returns a binary df with columns [text, label]
+    - multi_model_detection.csv: returns a binary df with columns [text, label, source, prompt]
     - train_v2_drcat_02.csv: returns a df with columns [text, label]
 
     Supported experiments:

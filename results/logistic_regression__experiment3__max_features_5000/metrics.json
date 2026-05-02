@@ -1,0 +1,9 @@
+{
+  "dataset_name": "experiment3",
+  "test_accuracy": 0.9083899259567261,
+  "test_roc_auc": 0.9437239533415052,
+  "max_features": 5000,
+  "batch_size": 128,
+  "epochs": 10,
+  "learning_rate": 0.001
+}

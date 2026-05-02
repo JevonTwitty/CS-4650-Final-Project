@@ -39,7 +39,7 @@ Download the following datasets and place the `.csv` files in the `data/` direct
 | Dataset Source | Description | Link | Required File Name |
 | :--- | :--- | :--- | :--- |
 | **AI vs. Human Text** | Large-scale balanced corpus | [Kaggle](https://www.kaggle.com/datasets/shanegerami/ai-vs-human-text) | `AI_Human.csv` |
-| **Multi-Model Detection** | Multi-generator (GPT/Llama) | [HuggingFace](https://huggingface.co/datasets/gsingh1-py/train) | `multi_model_detection.csv` |
+| **Multi-Model Detection** | Multi-generator (GPT, Llama, etc.) | [HuggingFace](https://huggingface.co/datasets/gsingh1-py/train) | `multi_model_detection.csv` |
 | **AI Text Detection** | Mixed academic & creative writing | [Kaggle](https://www.kaggle.com/datasets/deepaksingh2510/ai-text-detection-dataset) | `AI_Detection.csv` |
 | **DAIGT V2** | High-quality prompt-engineered data | [Kaggle](https://www.kaggle.com/datasets/thedrcat/daigt-v2-train-dataset) | `train_v2_drcat_02.csv` |
 

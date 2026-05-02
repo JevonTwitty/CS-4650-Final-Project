@@ -6,3 +6,8 @@
 
 # OS/Editor
 .DS_Store
+
+# Artifacts
+*/artifacts/*
+artifacts/
+**/artifacts/
